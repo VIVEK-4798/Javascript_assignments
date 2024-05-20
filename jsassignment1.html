@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1</title>
+</head>
+<body>
+    <label> Enter Your Name:- </label>
+    <br>
+    <br>
+    <input type="text" id="userName">
+    <button onclick="greetUser()"> Greet User</button>
+    <script>
+        function greetUser()
+        {
+            var userName;
+            userName = document.getElementById("userName").value;
+            document.write("Hello " + userName);
+        }
+    </script>
+</body>
+</html>
